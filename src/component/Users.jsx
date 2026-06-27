@@ -1,10 +1,11 @@
 
 import {useState,useEffect} from "react";
+import {useNavigate}  from "react-router-dom"
 
 function User(){
 
 const[user,setUser]=useState([]);
-
+ const navigate=useNavigate();
 useEffect(()=>{
  fetch("https://jsonplaceholder.typicode.com/users")
   .then((response)=>response.json())
@@ -21,6 +22,7 @@ return (
          <th>Name</th>
          <th>UserName</th>
          <th>Email</th>
+         <th>Action</th>
 
             </tr>
         </thead>
@@ -31,6 +33,10 @@ return (
            <td>{u.name}</td>
            <td>{u.username}</td>
            <td>{u.email}</td>
+           <td>
+<button onClick={() => navigate(`/user/${u.id}`)}>
+  View
+</button>           </td>
 
             </tr>
             

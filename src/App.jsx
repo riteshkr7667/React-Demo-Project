@@ -4,10 +4,13 @@ import About from "./component/About";
 import Employee from "./component/Employee";
 import Counter from "./Counter";
 import Users from "./component/Users";
+import Userdetails from "./component/UserDetails";
 
 
 function App() {
+
   return (
+
     <BrowserRouter >
     <Routes>
       <Route path="/" element={<Home />} />
@@ -15,6 +18,8 @@ function App() {
       <Route path="/employee" element={<Employee/>}/>
             <Route path="/counter" element={<Counter/>}/>
                         <Route path="/users" element={<Users/>}/>
+                                                <Route path="/user/:id" element={<Userdetails/>}/>
+
 
 
     </Routes>
