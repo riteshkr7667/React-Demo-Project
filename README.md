@@ -1,12 +1,82 @@
-# React + Vite
+# React Demo Project
+https://react-demo-project-tan.vercel.app/
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React.js application developed to practice and demonstrate core React concepts such as components, props, state management, hooks, routing, and API integration.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Functional Components
+* Props
+* useState Hook
+* useEffect Hook
+* React Router Navigation
+* API Data Fetching
+* Dynamic Table Rendering using map()
+* Responsive UI
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Router DOM
+* Fetch API
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-demo-project.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd react-demo-project
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Learning Outcomes
+
+* Understanding React component architecture
+* State management using useState
+* Side effects using useEffect
+* Navigation using React Router
+* Rendering dynamic data using map()
+* Consuming REST APIs
+
+## Live Demo
+
+https://react-demo-project-tan.vercel.app/
+
+## Author
+
+Ritesh Kumar
+
+GitHub: https://github.com/riteshkr7667
+LinkedIn: https://www.linkedin.com/in/ritesh-kumar-45a5591b6/
